@@ -128,17 +128,17 @@ export default {
           link: '/'
         },
         {
+          icon: 'mdi-chart-timeline-variant',
+          title: this.$t('The latest updates of NaraCity'),
+          link: '/naracity',
+          divider: true
+        },
+        {
           icon: 'covid',
           title: this.$t(
             'For those concerned about novel coronavirus infections'
           ),
           link: this.localePath('/flow'),
-          divider: true
-        },
-        {
-          icon: 'mdi-chart-timeline-variant',
-          title: this.$t('The latest updates of NaraCity'),
-          link: '/naracity',
           divider: true
         },
         {
