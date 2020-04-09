@@ -93,7 +93,7 @@ import formatGraph from '@/utils/formatGraph'
 import formatTable from '@/utils/formatTable'
 import formatConfirmedCases from '@/utils/formatConfirmedCases'
 import News from '@/data/news_naracity.json'
-import SvgCard from '@/components/SvgCard.vue'
+import SvgCard from '@/components/SvgCard_naracity.vue'
 import ConfirmedCasesTable from '@/components/ConfirmedCasesTable.vue'
 
 export default {
