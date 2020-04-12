@@ -258,14 +258,14 @@
   "29345": {
     "name": "安堵町",
     "kana": "あんどちょう",
-    "href": "https://www.town.ando.nara.jp/topics_list.php",
+    "href": "https://www.town.ando.nara.jp/contents_detail.php?frmId=2367",
     "row": "8",
     "column": "10/13"
   },
   "29361": {
     "name": "川西町",
     "kana": "かわにしちょう",
-    "href": "https://www.town.nara-kawanishi.lg.jp/category_list.php?frmCd=18-2-8-0-0",
+    "href": "https://www.town.nara-kawanishi.lg.jp/category_list.php?frmCd=18-2-8-1-0",
     "row": "10",
     "column": "10/13"
   },
@@ -335,14 +335,14 @@
   "29427": {
     "name": "河合町",
     "kana": "かわいちょう",
-    "href": "http://www.town.kawai.nara.jp/kinkyu/1586149439796.html",
+    "href": "http://www.town.kawai.nara.jp/kinkyu/index.html",
     "row": "10",
     "column": "6/9"
   },
   "29441": {
     "name": "吉野町",
     "kana": "よしのちょう",
-    "href": "https://www.town.yoshino.nara.jp/oshirase/topics/post-177.html",
+    "href": "https://www.town.yoshino.nara.jp/oshirase/topics/post-162.html",
     "row": "20/25",
     "column": "14/17"
   },
@@ -370,7 +370,7 @@
   "29446": {
     "name": "天川村",
     "kana": "てんかわむら",
-    "href": "http://www.vill.tenkawa.nara.jp/office/",
+    "href": "https://www.vill.kurotaki.nara.jp/",
     "row": "28/31",
     "column": "10/15"
   },
@@ -384,14 +384,14 @@
   "29449": {
     "name": "十津川村",
     "kana": "とつかわむら",
-    "href": "https://www.vill.totsukawa.lg.jp/emergency/information/index.php?c=topics_emergency_view&pk=1586311094",
+    "href": "https://www.vill.totsukawa.lg.jp/news/index.php?c=topics_view&pk=1583292054",
     "row": "34/37",
     "column": "2/15"
   },
   "29450": {
     "name": "下北山村",
     "kana": "しもきたやまむら",
-    "href": "http://www.vill.shimokitayama.nara.jp/oshirase/2020/03/3000.html",
+    "href": "http://www.vill.shimokitayama.nara.jp/oshirase/2020/02/3000.html",
     "row": "34/37",
     "column": "16/25"
   },
@@ -412,7 +412,7 @@
   "29453": {
     "name": "東吉野村",
     "kana": "ひがしよしのむら",
-    "href": "http://www.vill.higashiyoshino.nara.jp/life/coronavirus/",
+    "href": "http://www.vill.higashiyoshino.nara.jp/",
     "row": "24",
     "column": "18/25",
     "asides": [{
