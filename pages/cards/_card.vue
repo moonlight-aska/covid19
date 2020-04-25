@@ -50,7 +50,8 @@
 </template>
 
 <script>
-import mainSummary from '@/data/main_summary.json'
+/* import mainSummary from '@/data/main_summary.json' */
+import Data from '@/data/data.json'
 /* import inspectionsSummary from '@/data/inspections_summary.json'
 import patients from '@/data/patients.json' */
 /* import MetroData from '@/data/metro.json'
@@ -92,9 +93,10 @@ export default {
     let title, updatedAt
     switch (this.$route.params.card) {
       case 'details-of-confirmed-cases':
-        title = this.$t('入院患者数の状況')
+        title = this.$t('入院者数の状況')
         // updatedAt = inspectionsSummary.last_update
-        updatedAt = mainSummary.last_update
+        // updatedAt = mainSummary.last_update
+        updatedAt = Data.main_summary.date
         break
       /* case 'details-of-tested-cases':
         title = this.$t('検査実施状況')
@@ -102,11 +104,11 @@ export default {
         break */
       /*
       case 'number-of-confirmed-cases':
-        title = this.$t('陽性患者数')
+        title = this.$t('陽性者数')
         updatedAt = patients.last_update
         break
       case 'attributes-of-confirmed-cases':
-        title = this.$t('陽性患者の属性')
+        title = this.$t('陽性者の属性')
         updatedAt = patients.last_update
         break
       case 'number-of-tested':
@@ -143,7 +145,7 @@ export default {
         updatedAt = ChiyodaData.date
         break */
       case 'patients-and-sickbeds':
-        title = this.$t('入院患者数と残り病床数')
+        title = this.$t('入院者数と残り病床数')
         updatedAt = sickbedsSummary.last_update
         break
     }

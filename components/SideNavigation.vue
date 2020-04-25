@@ -87,15 +87,16 @@
     "Measures site": "まとめサイト（非公式）",
     "Nara Prefecture Government": "奈良県",
     "Tokyo COVID-19 Task Force": "新型コロナウイルス感染症対策本部",
-    "The latest updates": "県内の最新感染動向",
+    "The latest updates of NaraPref": "奈良県内の最新感染動向",
     "The latest updates of NaraCity": "奈良市内の最新感染動向",
     "For those concerned about novel coronavirus infections": "新型コロナウイルス感染症が心配なときに",
     "for Families with children": "お子様をお持ちの皆様へ",
     "school activity status": "各種学校の休校情報",
     "for Citizens": "県民の皆様へ",
-    "for Enterprises and Employees": "企業の皆様・はたらく皆様へ",
+    "for Enterprises and Employees": "中小企業・小規模事業者の皆様へ",
     "Official statements from Task Force": "奈良県総務部知事公室防災統括室",
     "Government official website": "奈良県公式ホームページ",
+    "Governor press conference": "知事記者会見（2020年4月9日）",
     "General Telephone Consultation": "一般電話窓口",
     "Departures and Contact Person Consultation Center": "帰国者・接触者相談センター",
     "Board of Education Announcement": "教育委員会の発表",
@@ -125,7 +126,7 @@ export default {
       return [
         {
           icon: 'mdi-chart-timeline-variant',
-          title: this.$t('The latest updates'),
+          title: this.$t('The latest updates of NaraPref'),
           link: '/'
         },
         {
@@ -139,55 +140,35 @@ export default {
           title: this.$t(
             'For those concerned about novel coronavirus infections'
           ),
-          link: this.localePath('/flow'),
-          divider: true
-        },
-        {
-          icon: 'parent',
-          title: this.$t('for Families with children'),
-          link: '/parent'
-        },
-        {
-          icon: 'school',
-          title: this.$t('school activity status'),
-          link: 'https://crssrds.jp/school_info/',
-          divider: true
+          link: this.localePath('/flow')
         },
         {
           icon: 'mdi-account-multiple',
-          title: this.$t('for Citizens'),
-          link: 'http://www.pref.nara.jp/#000'
-        },
-        {
-          icon: 'mdi-domain',
-          title: this.$t('for Enterprises and Employees'),
-          link: '/worker',
-          divider: true
-        },
-        {
-          title: this.$t('Official statements from Task Force'),
-          link: 'http://www.pref.nara.jp/item/222948.htm'
-        },
-        {
-          title: this.$t('About us'),
-          link: '/about'
-        },
-        {
-          title: this.$t('Government official website'),
-          link: 'http://www.pref.nara.jp/',
-          divider: true
-        },
-        {
-          title: this.$t('General Telephone Consultation'),
-          link: 'http://www.pref.nara.jp/#002'
-        },
-        {
           title: this.$t('Departures and Contact Person Consultation Center'),
           link: 'http://www.pref.nara.jp/#003'
         },
         {
-          title: this.$t('Board of Education Announcement'),
-          link: 'http://www.pref.nara.jp/kyoiku/'
+          icon: 'mdi-account-multiple',
+          title: this.$t('General Telephone Consultation'),
+          link: 'http://www.pref.nara.jp/#002',
+          divider: true
+        },
+        {
+          title: this.$t('Government official website'),
+          link: 'http://www.pref.nara.jp/'
+        },
+        {
+          title: this.$t('Governor press conference'),
+          link: 'http://www.pref.nara.jp/module/105696.htm'
+        },
+        {
+          title: this.$t('Municipalities'),
+          link: '/municipalities',
+          divider: true
+        },
+        {
+          title: this.$t('for Enterprises and Employees'),
+          link: 'http://www.pref.nara.jp/#007'
         },
         {
           title: this.$t('Telephone consultation on labor-related matter'),
@@ -196,12 +177,22 @@ export default {
           divider: true
         },
         {
-          title: this.$t('Municipalities'),
-          link: '/municipalities'
+          title: this.$t('Board of Education Announcement'),
+          link: 'http://www.pref.nara.jp/kyoiku/'
+        },
+        {
+          title: this.$t('school activity status'),
+          link: 'https://crssrds.jp/school_info/',
+          divider: true
+        },
+        {
+          title: this.$t('About us'),
+          link: '/about'
         },
         {
           title: this.$t('Other local Government'),
-          link: '/government'
+          link:
+            'https://github.com/tokyo-metropolitan-gov/covid19/blob/development/FORKED_SITES.md'
         }
       ]
     },
